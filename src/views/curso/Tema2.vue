@@ -1,431 +1,224 @@
 <template lang="pug">
   .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'2. El cuerpo y el movimiento en relación hacia los demás.'")
+    BannerInterno(:subTitulo="'2. Gestos del cuerpo'")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
   
-      .row.mb-4.mx-0
-        .d-none.d-xl-block.col-4.px-0
-          img.h-100(src='@/assets/curso/unidad/img-38.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-8.d-flex.align-items-center.bg-azul-oscuro.p-4(data-aos="fade-up")
-          p.mb-0 Durante la primera infancia (0 a 6 años), el <b>movimiento</b> no es simplemente una expresión física, sino una vía primordial a través de la cual los niños se <b>relacionan con su entorno y con los demás</b>. Como afirman Duarte, Rodríguez y Castro-Martínez (2017), esta dimensión del desarrollo corporal implica un conjunto de <b>competencias sociales y comunicativas</b> que fortalecen la capacidad de los niños para adaptarse socialmente, construir vínculos afectivos y desarrollar una comunicación efectiva.
+      .row.mb-4
+        .col-12.col-xl-8
+          p.mb-4 Según Mendiara Rivas (2016), aunque toda actividad humana posee una dimensión psicomotriz, no todo lo que hacemos puede considerarse psicomotricidad. Desde una perspectiva educativa, para que una acción sea psicomotriz deben confluir aspectos específicos que integren lo psicológico, lo corporal y lo relacional. En la infancia, el cuerpo es el primer objeto de percepción: el niño se experimenta a sí mismo en crecimiento dentro de un mundo exterior compuesto por dos ámbitos clave: el mundo de los objetos (espacio, tiempo) y el mundo de los demás (compañeros y adultos).
+          .d-flex.bg-amarillo.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-32.svg', alt='Texto descriptivo de la imagen')
+            .my-auto.p-4.p-xl-0
+              p.pe-xl-3.mb-0 Esta centralidad del cuerpo como medio de percepción en los primeros años de vida explica la relevancia de los <b>gestos corporales y la expresión corporal</b> como vías fundamentales para el desarrollo psicomotriz y la interacción con el entorno. Desde edades muy tempranas, incluso antes del lenguaje verbal, los niños utilizan su cuerpo para comunicarse, expresar necesidades, emociones e intenciones. Movimientos de manos, brazos, cabeza, rostro, etc., se convierten en recursos expresivos esenciales: un bebé que extiende los brazos para ser alzado, que frunce el ceño o sonríe, ya está comunicando a través del cuerpo (Mendiara Rivas, 2016).
+        .col-4.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-33.png', alt='Texto que describa la imagen')
 
-      h2 Movimiento como forma de conexión
+      .row.mb-4
+        .col-4.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-34.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-8
+          p.mb-4 La <b>expresión corporal</b>, más allá del gesto aislado, abarca la totalidad del cuerpo como medio expresivo. Se manifiesta mediante la postura, la mirada, el ritmo del movimiento, la tensión muscular y la manera de ocupar el espacio. A través de ella, los niños proyectan hacia el entorno su mundo interno, representando pensamientos y emociones (Mendiara Rivas, 2016).
+          .bg-morado.p-4(data-aos='fade-up')
+            span Esta relación entre percepción corporal y conocimiento del mundo es clave en la psicología evolutiva: el niño aprende tocando, moviéndose, interactuando, y responde con gestos a lo que experimenta. Por ejemplo, al levantar un objeto pesado puede tensar su cuerpo, o al compartir un juguete se acerca corporalmente al otro. Estos gestos reflejan y modulan la vivencia social (Mendiara Rivas, 2016).
 
       .row.mb-4
         .col-12.col-xl-8
-          p.mb-4 Gutiérrez y Castillo (2014) destacan que, según estudios recientes en neurología, el cuerpo en movimiento se convierte en el <b>lenguaje primario</b> del niño para interactuar con el mundo. Cada acción motriz —desde gatear hasta explorar objetos— es una forma de experimentar, conocer y comunicar. Este tipo de interacción corporal activa:
-          .bg-azul.p-4(data-aos='fade-up')
-            div.d-flex
-              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-              p <b>El desarrollo emocional</b>, al permitir la expresión no verbal de sentimientos.
-            div.d-flex
-              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-              p <b>La regulación emocional</b>, al construir confianza a través del control del propio cuerpo.
-            div.d-flex
-              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-              p <b>La construcción de una autoimagen positiva</b>, al tener éxito en la exploración del entorno.
-            span Esta relación psicofísica entre cuerpo y mente es un principio clave en neurociencia: el niño <b>conoce, dialoga e investiga</b> mediante el cuerpo. El movimiento es, entonces, una experiencia vital, no solo física, sino cognitiva, emocional y social. 
+          p.mb-4 La psicomotricidad educativa valora el <b>esquema corporal</b>, entendiendo los gestos y la expresión corporal como manifestaciones del conocimiento que el niño tiene de sí mismo. Actividades como la imitación, el juego simbólico, la exploración del movimiento o la expresión libre permiten al niño tomar conciencia de sus posibilidades y limitaciones (Mendiara Rivas, 2016).
+          .bg-azul-oscuro.mb-4.p-4(data-aos='fade-up')
+            span Finalmente, reconocer el cuerpo como el primer objeto de percepción resalta la importancia de la comunicación no verbal en la infancia: los gestos y movimientos no son solo respuestas, sino también herramientas de exploración, construcción de conocimiento y relación (Mendiara Rivas, 2016).
+          span La clasificación de gestos según Díaz y Castillo Viera (2016) es: 
         .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/unidad/img-35.png', alt='Texto que describa la imagen')
 
-      h2 Competencias del cuerpo y el movimiento en relación hacia los demás
-      p.mb-4 A continuación, se resumen las principales <b>competencias</b> vinculadas a esta dimensión del desarrollo infantil, según Duarte, Rodríguez y Castro-Martínez (2017):
+      ImagenInfografica.color-secundario.mb-4.bg-white
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/unidad/img-55.png', alt='Descripción de la imagen')
+        .tarjeta.bg-white.p-4(x='9%' y='35.4%' numero='+')
+          .h5.mb-2 Gestos automáticos o reflejos
+          p Movimientos involuntarios que surgen como respuestas inmediatas a estímulos internos o externos. Son respuestas primarias del organismo, muchas veces inconscientes, y revelan estados básicos como el hambre, el malestar o la sorpresa.
+        .tarjeta.bg-white.p-4(x='18%' y='72%' numero='+')
+          .h5.mb-2 Gestos emocionales
+          p Movimientos que expresan de manera directa emociones como alegría, miedo, tristeza o enojo. Estos gestos se reconocen fácilmente y tienen un valor comunicativo evidente, incluso sin palabras.
+        .tarjeta.bg-white.p-4(x='85.7%' y='78%' numero='+')
+          .h5.mb-2 Gestos proyectivos
+          p Se componen de una combinación entre lo emocional y lo cognitivo. Son elaboraciones conscientes que revelan pensamientos, deseos o intenciones antes de verbalizarse. Reflejan una mayor complejidad y están ligados al desarrollo de la intencionalidad.
+        .tarjeta.bg-white.p-4(x='88.9%' y='22.4%' numero='+')
+          .h5.mb-2 Gestos del pensamiento abstracto
+          p Se manifiestan con frecuencia en brazos y manos, acompañando o enfatizando el discurso verbal. Están asociados a procesos cognitivos más complejos y al desarrollo del pensamiento simbólico y argumentativo.
+
+      p.mb-4 La clasificación funcional de los gestos (Stoetzel y Scheflen, citados por Díaz y Castillo Viera, 2016) son: 
 
       .row.mb-4
         .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
-          img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/unidad/img-37.png', alt='Texto que describa la imagen')
         .col-12.col-lg-7.col-xl-8
           AcordionA(tipo="b")
-            .div(titulo="Comunicación corporal")
-              p Uso del cuerpo (gestos, miradas, posturas) como medio para expresar emociones, intenciones y necesidades. Favorece la comprensión mutua cuando aún no hay lenguaje verbal consolidado.
-            .div(titulo="Empatía y reconocimiento emocional")
-              p A través del juego corporal, los niños aprenden a interpretar y compartir emociones con sus pares. Esto fortalece el lazo social y la cooperación.
-            .div(titulo="Interacción social y juego compartido")
-              p Las actividades físicas grupales fomentan la capacidad de seguir reglas, esperar turnos y colaborar. El cuerpo se convierte en un medio para la integración social.
-            .div(titulo="Resolución de conflictos")
-              p La interacción física controlada enseña a canalizar impulsos, negociar y resolver tensiones a través de movimientos regulados y estrategias sociales.
-            .div(titulo="Imitación y aprendizaje social")
-              p Los niños imitan gestos y movimientos de otros como forma de aprendizaje. Este proceso favorece la adquisición de normas y comportamientos aceptados.
-            .div(titulo="Exploración del espacio común")
-              p Compartir el espacio en actividades motrices (como juegos con pelotas o dinámicas grupales) enseña nociones de proximidad, respeto al otro y cooperación.
+            .div(titulo="Gestos autísticos")
+              p Son movimientos estereotipados, sin intención comunicativa clara. Suelen aparecer en conductas de autorregulación o autoestimulación sensorial. Ejemplos: balanceo del cuerpo, sacudir las manos.
+            .div(titulo="Gestos habituales")
+              p Se ejecutan de forma automática o rutinaria. Están presentes en nuestra vida diaria y responden a convenciones sociales, como saludar, asentir o negar con la cabeza.
+            .div(titulo="Gestos simbólicos")
+              p Representan ideas o conceptos compartidos culturalmente. Se entienden sin necesidad de palabras y poseen un alto contenido simbólico, como levantar el pulgar para indicar aprobación.
+            .div(titulo="Gestos referenciales")
+              p Tienen una función indicativa: señalan objetos, personas o lugares. Ejemplo: apuntar con el dedo o dirigir la mirada hacia algo específico.
+            .div(titulo="Gestos demostrativos")
+              p Sirven para reforzar o enfatizar lo que se está diciendo verbalmente. Se utilizan para aumentar el impacto del mensaje. Ejemplo: extender los brazos para mostrar tamaño o cantidad.
+            .div(titulo="Gestos táctiles")
+              p Involucran contacto físico con otras personas y se emplean con fines afectivos o atencionales. Ejemplo: dar un abrazo, tocar un hombro para llamar la atención.
 
-      h2 Movimiento como medio de aprendizaje social y conceptual
-      .row.mb-4
-        .col-12.col-xl-8
-          p.mb-4 Además de sus efectos sociales y emocionales, el movimiento también tiene un impacto <b>en la construcción del pensamiento y el aprendizaje abstracto</b>. Gutiérrez y Castillo (2014) explican que:
-          .bg-amarillo.p-4(data-aos='fade-up')
-            div.d-flex
-              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-              p <b>Manipular objetos</b>y explorar el espacio permiten comprender conceptos como causa-efecto, tamaño, forma y distancia.
-            div.d-flex
-              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-              p <b>Participar en juegos colectivos</b> desarrolla habilidades como la categorización, la secuenciación y la anticipación de acciones.
-            span En síntesis, el movimiento en la primera infancia <b>no es solo desplazamiento</b>; es una poderosa herramienta de <b>relación, aprendizaje y expresión</b>. Cada acción motriz implica una conexión con los otros, con el entorno y con uno mismo. 
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
+      h2 Otros elementos expresivos
+      p.mb-4 Díaz y Castillo Viera (2016) amplían el análisis de la corporalidad expresiva incorporando elementos como:
 
-      #t_2_1.titulo-segundo(data-aos="flip-up")
-        div.d-flex
-          span.me-3 2.1
-          h2 Competencias sociales
-
+      .row.position-relative.mb-5.py-4.bg-fondo-slider.bg-full-width
+        div.px-4.px-md-5.py-md-3
+          SlyderA(tipo="b").bg-white
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold La voz
+                p Representa un <b>38% de la comunicación</b> y debe integrarse con el cuerpo como parte de la expresión corporal. Sus cualidades sonoras —frecuencia, timbre, intensidad y duración— ayudan a construir un mensaje expresivo. En contextos prácticos y creativos, voz y cuerpo actúan como canales complementarios.
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-38.png', alt='Texto que describa la imagen')
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold La mímica facial y la mirada
+                p La <b>cara</b> es un centro primordial de la expresión emocional, capaz de reflejar una amplia gama de sentimientos. La <b>mirada</b> establece y mantiene el contacto interpersonal, siendo un componente esencial de la comunicación no verbal.
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold La respiración
+                p Parte fundamental de la <b>corporalidad expresiva</b>. Afecta el <b>tono muscular</b> y el <b>estado emocional</b>, influyendo directamente en la calidad de los gestos y movimientos. Técnicas respiratorias bien aplicadas potencian tanto la expresión <b>verbal</b> como <b>no verbal</b>.
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
+            .row.p-4.px-md-5.py-lg-5.justify-content-between
+              .col-md-12.col-lg-7.mb-4.mb-md-0.d-flex.flex-column.justify-content-center
+                p.text-bold La relajación
+                p Es un <b>estado psicofísico</b> que implica distensión muscular y tranquilidad emocional. Favorece el <b>autocontrol</b>, mejora la percepción del cuerpo y facilita un aprendizaje expresivo más consciente y equilibrado. Es clave en actividades de expresión corporal.
+              .d-none.d-lg-block.col-md-6.col-lg-5(data-aos="zoom-in")
+                figure
+                  img(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
+      
+      h2 La expresión corporal en la educación infantil 
       .row.mb-4
         .col-4.d-none.d-xl-block
           img(src='@/assets/curso/unidad/img-42.png', alt='Texto que describa la imagen')
         .col-12.col-xl-8
-          p.mb-4 El desarrollo social en la infancia, según Gil et al. (2008), citado por Duarte, Rodríguez y Castro-Martínez (2017), se refiere a cómo la sociedad influye en las interacciones de los niños con su entorno: pares, adultos e instituciones. En esta dimensión, el cuerpo y el movimiento tienen un rol crucial al permitir que los infantes establezcan contacto con los demás, reciban retroalimentación y participen en experiencias compartidas que enriquecen su aprendizaje y adaptación social.
-          .d-flex.bg-azul-oscuro.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+          p.mb-4 En el <b>primer ciclo</b> de la educación infantil, la expresión corporal permite a los niños descubrir y experimentar con los recursos básicos de su cuerpo: gestos, desplazamientos, movimientos de brazos y piernas. Estos recursos se fortalecen conforme se desarrollan habilidades perceptivo-motrices, afectivas, cognitivas y relacionales.
+          .d-flex.bg-amarillo.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
             img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-43.svg', alt='Texto descriptivo de la imagen')
             .my-auto.p-4.p-xl-0
-              p.pe-xl-3.mb-0 El contacto corporal y la interacción motriz ofrecen a los niños y niñas sus primeras experiencias de <b>trabajo en grupo,</b> donde aprenden a interactuar, compartir y colaborar con sus pares. Para Bolaños (2006), citado por Duarte et al., estas interacciones tempranas son esenciales para el desarrollo de <b>relaciones sociales significativas</b>.
-          span Según Caballo (1986), citado por Rodríguez Camón (2016), las <b>habilidades sociales</b> son un conjunto de conductas utilizadas para expresar sentimientos, actitudes y opiniones de forma adecuada en contextos interpersonales, respetando a los demás y favoreciendo la resolución de conflictos. Estas habilidades pueden dividirse en dos categorías principales:
-
-      TabsC.mb-4
-        .tabs-content.border.px-4.p-md-5.py-3(titulo='Comportamiento no verbal', :icon="require('@/assets/curso/unidad/img-44.svg')")
-          .row
-            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-              figure
-                img(src='@/assets/curso/unidad/img-45.png', alt='Descripción de la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              h4(data-aos='fade-up') Comportamiento no verbal
-              p(data-aos='fade-up') Incluye gestos, expresión facial, mirada, postura, proximidad física, contacto, claves vocales y apariencia personal. Estas señales aportan información emocional y actitudinal clave en la comunicación.
-        .tabs-content.border.px-4.p-md-5.py-3(titulo='Comportamiento verbal', :icon="require('@/assets/curso/unidad/img-44.svg')")
-          .row
-            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-              figure
-                img(src='@/assets/curso/unidad/img-46.png', alt='Descripción de la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              h4(data-aos='fade-up') Comportamiento verbal
-              p(data-aos='fade-up') Implica el uso del lenguaje para informar, pedir, expresar emociones u opiniones. Su efectividad depende del contexto y la relación entre interlocutores.
-
-      p.mb-4 Estas habilidades deben enseñarse y practicarse desde edades tempranas, ya que su adquisición no es automática. La falta de una enseñanza intencionada puede dificultar la interiorización de conductas sociales esenciales para el desarrollo integral del niño (Rodríguez Camón, 2016). Rodríguez Camón (2016) también señala que diversos factores pueden limitar la expresión de habilidades sociales adecuadas:
-
-      .row.bg-fondo-2.bg-full-width.py-4.mb-4
-        div.px-5.pb-md-3
-
-          .row.mb-4
-            .col-4.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-47.png', alt='Texto que describa la imagen')
-            .col-12.col-xl-8
-              SlyderF(columnas='col-12 col-lg-6 py-4 px-3')
-                .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-48.svg', style='width: 80px')
-                  p.text-bold.mb-4.text-center Falta de aprendizaje
-                  p.px-1.text-small.mb-0.text-center El niño no ha sido expuesto ni enseñado a comportarse socialmente de manera apropiada.
-                .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-49.svg', style='width: 80px')
-                  p.text-bold.mb-4.text-center Ansiedad condicionada
-                  p.px-1.text-small.mb-0.text-center Presión o miedo frente a contextos sociales que inhiben la acción.
-                .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-50.svg', style='width: 80px')
-                  p.text-bold.mb-4.text-center Evaluación cognitiva deficiente
-                  p.px-1.text-small.mb-0.text-center El niño malinterpreta la situación o su rol en ella.
-                .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-51.svg', style='width: 80px')
-                  p.text-bold.mb-4.text-center Falta de motivación
-                  p.px-1.text-small.mb-0.text-center No encuentra interés ni valor en la interacción.
-                .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-52.svg', style='width: 80px')
-                  p.text-bold.mb-4.text-center Dificultad para discriminar contextos
-                  p.px-1.text-small.mb-0.text-center No diferencia entre situaciones que requieren distintas conductas.
-                .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                  img.mx-auto.mb-4(src='@/assets/curso/unidad/img-53.svg', style='width: 80px')
-                  p.text-bold.mb-4.text-center Obstáculos ambientales
-                  p.px-1.text-small.mb-0.text-center Entornos restrictivos o carentes de estímulo social.
-
-      .row.bg-fondo-2.bg-full-width.py-4.mb-4
-        div.px-5.pb-md-3
-
-          .row.mb-4
-            .col-12.col-xl-8
-              .mb-4.bg-gris.p-4(data-aos='fade-up')
-                span El desarrollo adecuado de estas habilidades es fundamental no solo para el vínculo con los demás, sino también para el crecimiento <b>emocional y cognitivo</b> del niño.
-              span En esta misma dimensión social, la categoría Sociedad y Cultura resalta cómo el cuerpo y el movimiento reflejan los valores culturales, normas sociales y formas de identidad. Según Remorini (2010), citado por Duarte, Rodríguez y Castro-Martínez (2017), el cuerpo actúa como un <b>marcador cultural</b> que expresa aspectos como género, edad, clase social e identidad individual o colectiva. Los gestos, las posturas y los movimientos permiten identificar características propias de cada cultura.
-            .col-4.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-54.png', alt='Texto que describa la imagen')
-          
-          .row
-            .col-10.col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos='fade-up')
-              .d-flex.bg-amarillo-oscuro.p-3.h-100.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-55.svg', alt='Texto descriptivo de la imagen')
-                .my-auto.p-4.p-xl-0
-                  p.pe-xl-3.mb-2.text-bold Género
-                  span Formas de caminar, jugar o expresarse pueden diferenciarse culturalmente.
-            .col-10.col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos='fade-up')
-              .d-flex.bg-amarillo-oscuro.p-3.h-100.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-56.svg', alt='Texto descriptivo de la imagen')
-                .my-auto.p-4.p-xl-0
-                  p.pe-xl-3.mb-2.text-bold Edad
-                  span Se espera un uso del cuerpo diferente según la etapa del desarrollo.
-            .col-10.col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos='fade-up')
-              .d-flex.bg-amarillo-oscuro.p-3.h-100.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-57.svg', alt='Texto descriptivo de la imagen')
-                .my-auto.p-4.p-xl-0
-                  p.pe-xl-3.mb-2.text-bold Identidad cultural
-                  span Posturas, gestos y movimientos reflejan costumbres, creencias y pertenencia cultural.
-
-      p.mb-4 Lo que los niños y niñas aprenden durante sus primeras etapas de socialización influye en cómo utilizarán su cuerpo a lo largo de la vida. Por ello, es esencial que desarrollen un <b>conocimiento profundo de su corporalidad</b>, lo que les permitirá comprender mejor su cultura, identidad y formas de interactuar socialmente.
-
-      #t_2_2.titulo-segundo(data-aos="flip-up")
-        div.d-flex
-          span.me-3 2.2
-          h2 Competencias emocionales
+              p.pe-xl-3.mb-0 Durante el <b>segundo ciclo</b>, los niños amplían estos recursos gracias a un mayor desarrollo emocional y cognitivo. Comienzan a interiorizar su imagen corporal y adquieren un control voluntario más preciso sobre sus movimientos, lo que enriquece su capacidad expresiva.
 
       .row.mb-4
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-58.png', alt='Texto que describa la imagen')
         .col-12.col-xl-8
-          .bg-azul.p-4(data-aos='fade-up').mb-4
-            span Las competencias emocionales forman parte fundamental del desarrollo social en la infancia. Según Ruano et al. (2006), citado por Duarte, Rodríguez y Castro-Martínez (2017), los niños expresan sus emociones, ideas y estados de ánimo <b>a través del cuerpo y el movimiento</b> desde los primeros años de vida. Esta expresión no verbal —como los gestos y la postura corporal— constituye una vía primaria de comunicación emocional en la infancia.
-          span A medida que los niños adquieren mayor conciencia de sus capacidades motoras, también desarrollan habilidades clave como la <b>empatía</b> y el <b>reconocimiento de emociones ajenas</b>. Las principales categorías dentro de esta dimensión son:
-
-      TabsC.mb-4
-        .tabs-content.border.px-4.p-md-5.py-3(titulo='Expresión emocional', :icon="require('@/assets/curso/unidad/img-59.svg')")
-          .row
-            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-              figure
-                img(src='@/assets/curso/unidad/img-60.png', alt='Descripción de la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              h4(data-aos='fade-up') Expresión emocional
-              p(data-aos='fade-up') Capacidad de comunicar sentimientos y estados de ánimo mediante lenguaje verbal y corporal.
-        .tabs-content.border.px-4.p-md-5.py-3(titulo='Reconocimiento de emociones ajenas', :icon="require('@/assets/curso/unidad/img-59.svg')")
-          .row
-            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-              figure
-                img(src='@/assets/curso/unidad/img-61.png', alt='Descripción de la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              h4(data-aos='fade-up') Reconocimiento de emociones ajenas
-              p(data-aos='fade-up') Habilidad para interpretar las emociones en los otros a través de señales como el tono de voz, gestos o expresiones faciales.
-
-      .row.mb-4
+          .bg-morado.p-4.mb-4(data-aos='fade-up')
+            span La expresión corporal no solo es canal de comunicación, sino también un medio para fortalecer vínculos, especialmente cuando se promueve la <b>interacción entre pares</b>. A través de la coordinación y ajuste de movimientos con otros, los niños desarrollan competencias sociales esenciales. Esta forma de expresión conecta el cuerpo con los procesos internos, y canaliza sus posibilidades hacia un lenguaje gestual creativo.
+          span Las <b>tres coordenadas</b> que estructuran esta expresión son: <b>cuerpo, espacio y tiempo</b>. Su desarrollo conjunto es clave para lograr movimientos expresivos y significativos.  Los objetivos de la expresión corporal en esta etapa son:
         .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-62.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-8
-          p.mb-4 Según Bisquerra Alzina y Pérez Escoda (2007), estas competencias son esenciales para el desarrollo integral, ya que permiten comprender, expresar y <b>autorregular las emociones</b>, influyendo positivamente en el bienestar emocional y la calidad de las relaciones interpersonales.
-          .bg-gris.p-4(data-aos='fade-up').mb-4
-            span Desde muy temprano, los niños experimentan emociones básicas como alegría, tristeza, enojo y miedo. No obstante, la forma en que las manifiestan depende de su madurez cognitiva y del contexto en que crecen. Estas emociones se expresan de distintas formas: mediante el lenguaje verbal, la comunicación no verbal y el comportamiento observable.
-          span Es indispensable que los adultos promuevan un entorno <b>seguro y afectuoso</b>, donde los niños se sientan cómodos expresando sus emociones. Para facilitar esto, se recomiendan estrategias como:
-
-      .row
-        .col-10.col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos='fade-up')
-          .d-flex.bg-amarillo-oscuro.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-63.svg', alt='Texto descriptivo de la imagen')
-            .my-auto.p-4.p-xl-0
-              p.pe-xl-3.mb-2.text-bold 01
-              span Cuentos y dramatizaciones
-        .col-10.col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos='fade-up')
-          .d-flex.bg-amarillo-oscuro.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-64.svg', alt='Texto descriptivo de la imagen')
-            .my-auto.p-4.p-xl-0
-              p.pe-xl-3.mb-2.text-bold 02
-              span Juegos de roles
-        .col-10.col-md-6.col-lg-4.mb-4.mb-lg-0(data-aos='fade-up')
-          .d-flex.bg-amarillo-oscuro.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-65.svg', alt='Texto descriptivo de la imagen')
-            .my-auto.p-4.p-xl-0
-              p.pe-xl-3.mb-2.text-bold 03
-              span Actividades artísticas
+          img(src='@/assets/curso/unidad/img-44.png', alt='Texto que describa la imagen')
 
       .row.bg-fondo-1.bg-full-width.py-4.mb-4
-        div.px-5.pb-md-3
+        div.px-5
 
-          .row.mb-4
-            .col-4.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-66.png', alt='Texto que describa la imagen')
-            .col-12.col-xl-8
-              p.mb-4 Estas herramientas fomentan la <b>conciencia emocional</b>, permitiendo que los niños exploren y canalicen sus emociones de manera saludable. Además, el <b>refuerzo positivo</b> y la <b>validación emocional</b> por parte de cuidadores y educadores son fundamentales para que los niños se sientan comprendidos. Esto fortalece su <b>autoestima</b> y los ayuda a gestionar la frustración o el estrés.
-              .bg-azul-oscuro.p-4(data-aos='fade-up').mb-4
-                span La capacidad de <b>reconocer las emociones de los demás</b> es clave para la empatía y la inteligencia emocional. En la primera infancia, esta habilidad comienza a desarrollarse al observar expresiones faciales, tonos de voz y comportamientos en padres, maestros y compañeros. Con el tiempo, los niños aprenden a ajustar su conducta en función de estas señales emocionales. Para fortalecer esta capacidad, Bisquerra Alzina y Pérez Escoda (2007) proponen actividades como:
+          .row.justify-content-center
+            .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-45.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Conciencia
+                p.px-1.text-small.mb-0.text-center Identificar y comprender lo que sucede dentro y fuera del cuerpo, así como nuestras reacciones.
+            .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-46.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Espontaneidad
+                p.px-1.text-small.mb-0.text-center Estimular una expresión libre y auténtica, sin inhibiciones.
+            .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-47.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Creatividad
+                p.px-1.text-small.mb-0.text-center Potenciar la imaginación mediante la percepción, el juego y la expresión libre.
+            .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-48.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Relaciones
+                p.px-1.text-small.mb-0.text-center Relaciones
 
-          .row.mb-4.justify-content-center
-            .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-              .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-67.svg', style='width: 80px')
-                p.text-bold.mb-4.text-center Juegos de expresión facial
-                p.px-1.text-small.mb-0.text-center Identificar emociones básicas a través del rostro.
-            .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-              .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-68.svg', style='width: 80px')
-                p.text-bold.mb-4.text-center Dinámicas de identificación emocional
-                p.px-1.text-small.mb-0.text-center Reconocer emociones en diferentes contextos y situaciones.
-            .col-10.col-md-8.col-lg-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-              .custom-image-card.d-flex.flex-column.p-4.py-md-5
-                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-69.svg', style='width: 80px')
-                p.text-bold.mb-4.text-center Ejercicios de <i>role-playing</i>
-                p.px-1.text-small.mb-0.text-center Ensayar respuestas empáticas y adecuadas a emociones ajenas.
+      .d-flex.bg-azul.bg-full-width.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+        img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-49.svg', alt='Texto descriptivo de la imagen')
+        .my-auto.p-4.p-xl-0
+          p.px-4.mb-0 Es esencial garantizar un <b>clima de libertad y respeto</b> en las actividades de expresión corporal, permitiendo que los niños se expresen sin restricciones innecesarias, respetando siempre la convivencia. La educación infantil debe acoger tanto formas convencionales como creativas de expresión para maximizar su impacto educativo.
 
-      p.mb-4 Estas prácticas enriquecen la sensibilidad emocional del niño y favorecen la construcción de vínculos sociales sanos y empáticos.
-      
-      #t_2_3.titulo-segundo(data-aos="flip-up")
+      #t_2_1.titulo-segundo(data-aos="flip-up")
         div.d-flex
-          span.me-3 2.3
-          h2 Competencias comunicativas
+          span.me-3 2.1
+          h2 Los gestos y el movimiento
 
       .row.mb-4
         .col-12.col-xl-8
-          p.mb-4 Las <b>competencias comunicativas</b> son fundamentales en la dimensión del cuerpo y el movimiento en relación hacia los demás. Desde los primeros años de vida, los seres humanos usan su cuerpo para comunicarse con su entorno. El movimiento se convierte en uno de los primeros lenguajes de la infancia, facilitando tanto la expresión como la comprensión del mundo (Duarte, Rodríguez y Castro-Martínez, 2017).
-          .bg-azul-oscuro.p-4(data-aos='fade-up').mb-4
-            span Fomentar el movimiento no solo fortalece la <b>expresión corporal</b>, sino que también potencia habilidades relacionadas con el lenguaje, como la <b>comprensión verbal</b>, la <b>lectura</b> y el <b>enriquecimiento del vocabulario</b>. Un niño con conciencia corporal desarrolla con mayor facilidad competencias de <b>escucha y expresión verbal</b>, esenciales para su desarrollo integral (Duarte, Rodríguez y Castro-Martínez, 2017).
-          span Estas competencias incluyen tres grandes categorías: <i>expresión de ideas, capacidad de escucha y lenguaje</i>, cada una con subcategorías que contribuyen al desarrollo cognitivo y social del niño.
+          .bg-azul-oscuro.mb-4.p-4(data-aos='fade-up')
+            span Según <b>Cervantes (2024)</b>, el gesto y el movimiento son componentes esenciales de la <i>expresión corporal</i>, entendida como el uso del cuerpo con intencionalidad comunicativa y emocional. Desde edades tempranas, los niños recurren a los <b>gestos</b> como un lenguaje prelingüístico que sienta las bases para el desarrollo de otros lenguajes, como el verbal o el musical. Aunque su aprendizaje puede ser lento, se ve favorecido por la imitación de adultos cercanos, facilitando así la adquisición de nuevas formas de expresión.
+          span Los <b>gestos</b> son movimientos específicos e intencionados de partes del cuerpo, principalmente manos, brazos, cabeza y rostro, con fines comunicativos. Pueden ser conscientes o inconscientes, y su significado varía según el contexto cultural. En la expresión corporal, los gestos pueden reforzar el lenguaje verbal o incluso reemplazarlo por completo, transmitiendo emociones, pensamientos y actitudes. Por ejemplo, un gesto de asentimiento, un encogimiento de hombros o el movimiento de las manos al hablar son formas expresivas ampliamente reconocidas.
         .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-70.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/unidad/img-50.png', alt='Texto que describa la imagen')
+
+      .row.mb-4
+        .col-4.d-none.d-xl-block
+          img(src='@/assets/curso/unidad/img-51.png', alt='Texto que describa la imagen')
+        .col-12.col-xl-8
+          p.mb-4 Asimismo, el <b>juego</b> es una vía fundamental mediante la cual los niños emplean gestos para representar sensaciones, emociones, roles y acciones. Este tipo de interacción favorece la conexión emocional con el entorno, fomenta la creatividad y fortalece la comunicación no verbal, siendo clave en su desarrollo integral.
+          .mb-4.bg-amarillo.p-4(data-aos='fade-up')
+            span El <b>movimiento</b> es una necesidad natural del niño. Puede ser global (implicando todo el cuerpo) o segmentario (implicando solo partes del cuerpo). Se clasifica como reflejo, voluntario o automático, en función del tipo de control neurológico implicado. Desde el punto de vista de la expresión corporal, la <b>calidad del movimiento</b> (fluidez, intensidad, dirección, velocidad) es tan relevante como el movimiento mismo, pues comunica emociones y significados: por ejemplo, un gesto brusco puede indicar enojo, mientras que uno suave puede transmitir ternura.
+          span Los elementos del gesto y el movimiento en la expresión corporal son: 
+      .row.mb-4
+        .col-12.col-lg-7.col-xl-8
+          AcordionA(tipo="b")
+            .div(titulo="Posturas")
+              p Posiciones que adopta el cuerpo en el espacio. Reflejan emociones, actitudes y la relación con el entorno. Una postura erguida puede sugerir seguridad, mientras que una encorvada puede expresar tristeza o inseguridad. Son parte del “lenguaje silencioso” del cuerpo.
+            .div(titulo="Dinámicas")
+              p Se refieren a la energía, fuerza e intensidad con que se ejecuta un movimiento. Incluyen el grado de tensión muscular y la forma en que se inicia y finaliza una acción. Una dinámica tensa puede denotar agitación; una suave, serenidad.
+            .div(titulo="Actitudes")
+              p Disposiciones emocionales y mentales expresadas corporalmente. Se manifiestan a través de la postura, la mirada, los gestos y el uso del espacio. Por ejemplo, una actitud defensiva se traduce en brazos cruzados y mirada evasiva.
+            .div(titulo="Señales")
+              p Gestos con significado convencional o culturalmente establecido. Son códigos no verbales claros, como levantar el pulgar para indicar aprobación o hacer un gesto de alto con la mano.
+        .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
+          img(src='@/assets/curso/unidad/img-52.png', alt='Texto que describa la imagen')
 
       .row.mb-4
         .col-12.col-lg-5.col-xl-4.d-none.d-lg-block(data-aos="zoom-in")
-          img(src='@/assets/curso/unidad/img-71.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/unidad/img-53.png', alt='Texto que describa la imagen')
         .col-12.col-lg-7.col-xl-8
           AcordionA(tipo="b")
-            .div(titulo="Expresión de ideas")
-              p <i>Subcategorías:</i> Comunicación verbal y no verbal. <br><i>Descripción:</i> Permite a los niños expresar pensamientos y emociones, fundamentales para socializar y construir pensamiento. <br><i>Estrategias:</i> Fomentar el diálogo en casa y en clase, usar juegos de roles, promover la narración de cuentos.
+            .div(titulo="Expresiones faciales")
+              p Movimientos musculares del rostro que comunican emociones. La cara es un foco primordial de expresión: alegría, tristeza, enojo, miedo, etc., se reconocen universalmente, aunque con matices culturales.
+            .div(titulo="Coordinación")
+              p Capacidad de armonizar movimientos diversos del cuerpo. Una buena coordinación asegura fluidez en la expresión; la falta de esta puede provocar una comunicación corporal confusa o rígida.
+            .div(titulo="Ritmo")
+              p Organización temporal de los movimientos. Implica duración, pausas y velocidad. Aporta sentido expresivo: un ritmo acelerado puede denotar ansiedad; uno pausado, calma o reflexión.
+            .div(titulo="Fluidez")
+              p Continuidad y suavidad entre gestos o posturas. Permite que la expresión corporal sea clara y estética. La falta de fluidez genera movimientos entrecortados o tensos.
 
-            .div(titulo="Capacidad de escucha")
-              p <i>Subcategorías:</i> Atención auditiva y comprensión. <br><i>Descripción:</i> Es esencial para la comunicación efectiva. Implica escuchar activamente, interpretar y responder adecuadamente. <br><i>Estrategias:</i> Juegos de atención auditiva, lectura con preguntas, dinámicas de conversación grupal.
+      h2 Aplicaciones didácticas y educativas
+      p.mb-4 A continuación, se presenta un video que ilustra cómo la expresión corporal puede integrarse en contextos educativos, partiendo del movimiento espontáneo del niño y promoviendo el desarrollo de sus capacidades comunicativas y creativas.
 
-            .div(titulo="Lenguaje")
-              p <i>Subcategorías:</i> Lectura, vocabulario, estructuras gramaticales. <br><i>Descripción:</i> El acceso a libros y la estimulación lingüística mejoran el pensamiento crítico y las habilidades expresivas. <br><i>Estrategias:</i> Lectura en voz alta con interacción, exploración de textos, creación de historias propias.
-
-      .row.bg-fondo-1.bg-full-width.py-4.mb-4
+      .row.bg-fondo-slider.bg-full-width.py-4.mb-4
         div.px-5.pb-md-3
+          figure
+            .video
+              <iframe width="1905" height="748" src="https://www.youtube.com/embed/8TpCEHxTtO8" title="Ventajas del polimorfismo en el matenimiento del software" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-          .row.mb-4
-            .col-12.col-xl-8
-              .bg-azul.p-4(data-aos='fade-up').mb-4
-                span Pico Mora (2017) afirma que las <b>competencias comunicativas</b> permiten expresar pensamientos, emociones y necesidades, al tiempo que desarrollan la capacidad de comprender a los demás. Estas habilidades se construyen de forma progresiva y dependen del entorno, las experiencias educativas y las interacciones sociales.
-              span El desarrollo del lenguaje se ve enriquecido mediante la <b>introducción de palabras nuevas en contextos significativos</b>, lo que amplía el vocabulario y mejora la expresión verbal.
-            .col-4.d-none.d-xl-block
-              img(src='@/assets/curso/unidad/img-72.png', alt='Texto que describa la imagen')
-          
-          .row.mb-4
-            .col-8.col-md-6.col-lg-4.mx-auto.mb-4.mb-lg-0(data-aos='fade-up')
-              .d-flex.bg-amarillo-oscuro.p-3.h-100.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-73.svg', alt='Texto descriptivo de la imagen')
-                .my-auto.p-4.p-xl-0
-                  p.pe-xl-3.mb-2.text-bold Juegos de asociación semántica 
-                  span Relacionar palabras por categorías.
-            .col-8.col-md-6.col-lg-4.mx-auto.mb-4.mb-lg-0(data-aos='fade-up')
-              .d-flex.bg-amarillo-oscuro.p-3.h-100.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-74.svg', alt='Texto descriptivo de la imagen')
-                .my-auto.p-4.p-xl-0
-                  p.pe-xl-3.mb-2.text-bold Canciones y rimas
-                  span Adquirir vocabulario de forma lúdica y memorizable.
-            .col-8.col-md-6.col-lg-4.mx-auto.mb-4.mb-lg-0(data-aos='fade-up')
-              .d-flex.bg-amarillo-oscuro.p-3.h-100.flex-column.flex-md-row.mb-4(data-aos='fade-up')
-                img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-75.svg', alt='Texto descriptivo de la imagen')
-                .my-auto.p-4.p-xl-0
-                  p.pe-xl-3.mb-2.text-bold Conversaciones guiadas
-                  span Incorporar nuevos términos con explicaciones comprensibles.
-      p.mb-4 Estas estrategias fortalecen tanto la expresión como la comprensión, dos pilares de la comunicación efectiva en la infancia.
-
-      #t_2_4.titulo-segundo(data-aos="flip-up")
-        div.d-flex
-          span.me-3 2.4
-          h2 Competencias Ciudadanas
-
-      .row.mb-4
-        .col-12.col-xl-8
-          .bg-gris-oscuro.p-4(data-aos='fade-up').mb-4
-            span Las <b>competencias ciudadanas</b> en la primera infancia, según Duarte, Rodríguez y Castro-Martínez (2017), se desarrollan a través del cuerpo y el movimiento, que permiten a los niños aprender a <b>cooperar, elegir, participar y seguir instrucciones</b> en contextos sociales. Citando a Shoval, Sharir y Shulruf (2014), destacan que estas actividades fortalecen habilidades clave para la vida en comunidad. De forma complementaria, Furmanek (2014) señala que el movimiento facilita la <b>comprensión de instrucciones</b>, esencial para el aprendizaje y la participación activa.
-          span Estas habilidades se agrupan en tres categorías principales: <i>cooperación, seguimiento de instrucciones y comprensión de reglas y normas</i>, que constituyen pilares de la formación ciudadana en la infancia.
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-76.png', alt='Texto que describa la imagen')
-
-      TabsC.mb-4
-        .tabs-content.border.px-4.p-md-5.py-3(titulo='Cooperación', :icon="require('@/assets/curso/unidad/img-77.svg')")
-          .row
-            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-              figure
-                img(src='@/assets/curso/unidad/img-78.png', alt='Descripción de la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              h4(data-aos='fade-up') Cooperación
-              p(data-aos='fade-up') Implica trabajar en equipo, compartir recursos y respetar turnos. Se promueve con juegos colaborativos, dinámicas grupales y actividades con metas comunes.
-        .tabs-content.border.px-4.p-md-5.py-3(titulo='Seguimiento de instrucciones', :icon="require('@/assets/curso/unidad/img-77.svg')")
-          .row
-            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-              figure
-                img(src='@/assets/curso/unidad/img-79.png', alt='Descripción de la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              h4(data-aos='fade-up') Seguimiento de instrucciones
-              p(data-aos='fade-up') Consiste en escuchar, comprender y ejecutar indicaciones. Se fortalece con juegos de reglas, actividades secuenciales y dinámicas de escucha atenta.
-        .tabs-content.border.px-4.p-md-5.py-3(titulo='Comprensión de reglas y normas', :icon="require('@/assets/curso/unidad/img-77.svg')")
-          .row
-            .d-none.d-lg-block.col-md-12.col-lg-5(data-aos='zoom-in')
-              figure
-                img(src='@/assets/curso/unidad/img-80.png', alt='Descripción de la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              h4(data-aos='fade-up') Comprensión de reglas y normas
-              p(data-aos='fade-up') Permite interactuar armoniosamente en comunidad. Se construye mediante observación, práctica y refuerzo positivo, con herramientas como el juego simbólico, los cuentos con valores y las actividades comunitarias.
-
-      .row.mb-4
-        .col-12.col-xl-8
-          p.mb-4 Gutiérrez Carvajal (2021) sostiene que estas competencias son esenciales para formar a los niños como <b>miembros activos y responsables de la sociedad</b>, capaces de interactuar con respeto, de tomar decisiones y de asumir responsabilidades dentro de su grupo social.
-          .bg-gris-oscuro.p-4(data-aos='fade-up')
-            span Además, los niños deben comprender que forman parte de una comunidad y que sus acciones tienen consecuencias en el entorno. Esto se logra <b>fomentando su participación activa</b> en actividades donde puedan expresar opiniones, tomar decisiones y asumir pequeños roles de liderazgo, adecuados a su edad.
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-81.png', alt='Texto que describa la imagen')
-
-      h2 Integración de competencias para el desarrollo integral
-
-      .row.mb-4
-        .col-4.d-none.d-xl-block
-          img(src='@/assets/curso/unidad/img-82.png', alt='Texto que describa la imagen')
-        .col-12.col-xl-8
-          p.mb-4 El desarrollo del cuerpo y el movimiento en relación con los demás está profundamente ligado al fortalecimiento de las competencias <b>sociales, emocionales, comunicativas y ciudadanas</b>. A través de la interacción con su entorno, los niños y niñas aprenden a:
-          .bg-amarillo.p-4(data-aos='fade-up').mb-4
-            div.d-flex
-              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-              p Reconocer su cuerpo y actuar con autonomía.
-            div.d-flex
-              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-              p Expresarse verbal y no verbalmente.
-            div.d-flex
-              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-              p Regular sus emociones con confianza.
-            div.d-flex
-              img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px').me-2.h-100.mt-2
-              p Respetar normas, colaborar y participar activamente.
-          p.mb-0 Este proceso educativo integral permite que el movimiento no sea solo una actividad física, sino una herramienta para construir vínculos significativos y comprender el mundo social que los rodea. 
-      p.mb-4 Al integrar estas competencias en la práctica pedagógica, se contribuye a la formación de niños y niñas <b>seguros, empáticos, respetuosos y cooperativos</b>. Así, el cuerpo en movimiento se transforma en un <b>medio de exploración personal y una vía esencial para la integración social y el desarrollo humano pleno</b>.
-
-      .row.bg-gris-oscuro.bg-full-width.py-4.mb-5
+      .row.bg-morado.bg-full-width.py-4.mb-4
         div.px-5.pb-md-3.py-4.d-flex
           .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
-            h2.mb-4.pb-2.me-auto El cuerpo y el movimiento en relación hacia el entorno
-            p.mb-5(data-aos="fade-up") Se invita a leer el documento El cuerpo y el movimiento en relación hacia el entorno , donde se aborda el papel fundamental del cuerpo y el movimiento en el desarrollo integral de los niños y niñas durante la primera infancia.
-            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+            h2.mb-4.pb-2.me-auto Reconocimiento del espacio con el movimiento del cuerpo
+            p.mb-5(data-aos="fade-up") Se invita a leer el documento Reconocimiento del espacio con el movimiento del cuerpo, donde se aborda el papel esencial del movimiento corporal en el desarrollo psicomotor y la percepción espacial y temporal en la infancia.
+            a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_percepcion_en_el_movimiento.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
-              p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong>El cuerpo y el movimiento en relación hacia el entorno
+              p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Reconocimiento del espacio con el movimiento del cuerpo
           .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
-            img.h-100(src='@/assets/curso/unidad/img-83.png', alt='Texto que describa la imagen')
-
-      .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
-        .p-4.p-md-5
-          #Actividad
-            <Actividad :cuestionario='cuestionario'/>
-
-      .bg-full-width.border-top-9-azul
-        .px-5.pt-5.pb-0
-          h2 Material complementario
-          .row
-            .col-12.col-md-6.col-lg-8
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://www.mineducacion.gov.co/primerainfancia/1739/articles-178053_archivo_PDF_libro_desarrolloinfantil.pdf") Ministerio de Educación Nacional de Colombia. (2009). Desarrollo infantil y competencias en la Primera infancia
-              
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/46052?page=1") Segura Morales, M. & Arcas Cuenca, M. (2011). Relacionarnos bien: programas de competencia social para niños y niñas de 4 a 12 años
-              
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=JWM6HU3H_JI") [Vídeo] ¿Qué son las competencias emocionales? | #PalabraMaestra
-              
-              p.d-flex.my-4
-                img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=2swfGnnbglU") [Vídeo] El valor del juego en el desarrollo infantil
-            
-            .col-12.col-md-6.col-lg-3
-              figure
-                img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
+            img.h-100(src='@/assets/curso/unidad/img-54.png', alt='Texto que describa la imagen')
 
       p
 
@@ -434,132 +227,6 @@
 <script>
 export default {
   name: 'Tema2',
-  data: () => ({
-    cuestionario: {
-      tema: 'Educación Inicial y Desarrollo Infantil',
-      titulo: 'Ponte a prueba',
-      introduccion:
-        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
-      barajarPreguntas: true,
-      preguntas: [
-        {
-          id: 1,
-          texto:
-            '¿Qué actividad ayuda al desarrollo de la percepción temporal en los niños?',
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Juegos de movimiento.', esCorrecta: false },
-            {
-              id: 'b',
-              texto: 'Uso de calendarios visuales.',
-              esCorrecta: true,
-            },
-            { id: 'c', texto: 'Actividades de relajación.', esCorrecta: false },
-            { id: 'd', texto: 'Narraciones abstractas.', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 2,
-          texto:
-            '¿Cómo contribuyen las actividades sensoriales al aprendizaje infantil?',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Estimulan el desarrollo físico exclusivamente.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto:
-                'Integran información para formar una imagen coherente del entorno.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Fomentan la interacción social exclusivamente.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Facilitan el aprendizaje de normas abstractas.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 3,
-          texto:
-            '¿Qué concepto se relaciona directamente con el uso de rompecabezas en la primera infancia?',
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Regulación emocional.', esCorrecta: false },
-            {
-              id: 'b',
-              texto: 'Representaciones espaciales.',
-              esCorrecta: true,
-            },
-            { id: 'c', texto: 'Percepción temporal.', esCorrecta: false },
-            { id: 'd', texto: 'Cooperación grupal.', esCorrecta: false },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 4,
-          texto:
-            '¿Qué habilidad se desarrolla al trabajar el enriquecimiento del vocabulario en la primera infancia?',
-          barajarRespuestas: true,
-          opciones: [
-            { id: 'a', texto: 'Coordinación motriz.', esCorrecta: false },
-            { id: 'b', texto: 'Regulación emocional.', esCorrecta: false },
-            { id: 'c', texto: 'Conciencia del espacio.', esCorrecta: false },
-            { id: 'd', texto: 'Expresión verbal.', esCorrecta: true },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto:
-            '¿Cómo se fomenta el aprendizaje experiencial en la educación inicial?',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Por medio de ejercicios abstractos.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Con actividades exclusivamente grupales.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto:
-                'A través de la práctica directa e interacción con el entorno.',
-              esCorrecta: true,
-            },
-            {
-              id: 'd',
-              texto: 'Mediante el estudio teórico únicamente.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-      ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
-      mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
-    },
-  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

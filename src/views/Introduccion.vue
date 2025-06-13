@@ -5,15 +5,15 @@
 
     .row.mb-4
       .col-10.col-lg-6.col-xl-4.mx-auto.bg-amarillo.p-4.d-flex(data-aos='fade-up')
-        span La primera unidad de esta asignatura, aborda la importancia del cuerpo y el movimiento como elementos esenciales en el desarrollo de los niños y niñas durante la educación inicial. Se explica cómo el cuerpo, más allá de ser un medio físico, es una herramienta fundamental para la interacción consigo mismo, con los demás y con el entorno. Este enfoque permite entender la corporalidad como un componente integral que contribuye a la construcción de habilidades, conocimientos y vínculos sociales.
+        span Esta unidad aborda la importancia de la psicomotricidad en la educación inicial y su papel en la creación de entornos de aprendizaje participativos y enriquecedores. El estudio de la psicomotricidad se organiza en torno a tres ejes fundamentales: <b>los movimientos corporales</b>, que incluyen habilidades motrices básicas como saltar, correr, trepar, rodar y hacer volteretas; <b>los gestos del cuerpo</b>, que permiten la expresión no verbal y la interacción social; y <b>el reconocimiento del espacio a través del movimiento</b>, esencial para la orientación y el desenvolvimiento en diferentes contextos.
       .col-4.d-none.d-xl-block
         img(src='@/assets/curso/unidad/img-1.png', alt='Texto que describa la imagen')
-      .col-10.col-lg-6.col-xl-4.mx-auto.bg-gris.p-4.d-flex(data-aos='fade-up')
-        span Se busca que los estudiantes al diseñar ambientes de aprendizaje participativo donde los niños y niñas pueden explorar, experimentar y desarrollar; tengan en cuenta las competencias relacionadas con la conciencia corporal, el movimiento y la conexión con su entorno.
+      .col-10.col-lg-6.col-xl-4.mx-auto.bg-azul-oscuro.p-4.d-flex(data-aos='fade-up')
+        span Comprender estos aspectos resulta fundamental para diseñar ambientes de aprendizaje que favorezcan la exploración y el desarrollo integral de los niños y niñas. A través de actividades lúdicas y experiencias prácticas, se fortalece la relación del cuerpo con el entorno y se potencia el aprendizaje significativo.
 
     .row.bg-azul.bg-full-width.py-4.mb-4
-      div.px-5.pb-md-3
+      div.px-5.py-2 
 
-        span La unidad presenta tres temas principales: <b>el cuerpo y el movimiento en relación consigo mismo</b>, <b>el cuerpo y el movimiento en relación hacia los demás</b>, y <b>el cuerpo y el movimiento en relación hacia el entorno</b>. A lo largo del desarrollo, se realizarán actividades prácticas, reflexiones y ejercicios pedagógicos que permitirán aplicar los conceptos desarrollados.
-
+        span Se invita a la reflexión sobre la importancia de promover oportunidades de movimiento dentro del aula y en espacios abiertos, con el fin de estimular el desarrollo psicomotor y mejorar la capacidad de los niños para relacionarse con los demás y con su entorno. Se espera una participación activa en el análisis y aplicación de estrategias que integren la psicomotricidad en la educación inicial, promoviendo experiencias enriquecedoras que faciliten el aprendizaje y la expresión corporal.
+    
 </template>

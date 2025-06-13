@@ -2,7 +2,7 @@
   .curso-main-container.creditos-vista
     BannerInterno(subTitulo="SÍNTESIS")
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      p(data-aos="fade-up").mb-5 La Unidad 1, "Corporalidad y Formación Integral", explora cómo el cuerpo y el movimiento son esenciales para el desarrollo integral de los niños y niñas en la educación inicial. 
+      p(data-aos="fade-up").mb-5 La psicomotricidad es un aspecto esencial en el desarrollo infantil, ya que integra el cuerpo, el movimiento y la mente en la construcción de habilidades fundamentales para la vida. 
 
       .row.justify-content-center
         .col-lg-12.mb-5

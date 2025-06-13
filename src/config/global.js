@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '1',
-    tituloUnidad: 'Corporalidad y formación Integral',
+    numeroUnidad: '2',
+    tituloUnidad: 'Psicomotricidad',
   },
   menuPrincipal: {
     menu: [
@@ -15,20 +15,27 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'El cuerpo y el movimiento en relación consigo mismo.',
+        titulo:
+          'Movimientos corporales:  Habilidades motrices (saltar, correr, trepar, rodar, hacer volteretas)',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Conciencia Corporal',
+            titulo: 'Habilidades motrices',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Autopercepción',
+            titulo: 'Habilidades motrices básicas y específicas',
             hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Los patrones locomotores',
+            hash: 't_1_3',
           },
         ],
       },
@@ -36,32 +43,14 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'El cuerpo y el movimiento en relación hacia los demás.',
+        titulo: 'Gestos del cuerpo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Competencias sociales',
+            titulo: 'Los gestos y el movimiento',
             hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Competencias emocionales',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Competencias comunicativas',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Competencias Ciudadanas',
-            hash: 't_2_4',
           },
         ],
       },
