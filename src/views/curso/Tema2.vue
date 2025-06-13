@@ -209,7 +209,7 @@
             .video
               <iframe width="1905" height="748" src="https://www.youtube.com/embed/8TpCEHxTtO8" title="Ventajas del polimorfismo en el matenimiento del software" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-      .row.bg-morado.bg-full-width.py-4.mb-4
+      .row.bg-morado.bg-full-width.py-4.mb-5
         div.px-5.pb-md-3.py-4.d-flex
           .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto Reconocimiento del espacio con el movimiento del cuerpo
@@ -220,6 +220,33 @@
           .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in")
             img.h-100(src='@/assets/curso/unidad/img-54.png', alt='Texto que describa la imagen')
 
+
+      .bg-full-width.border-top.actividad(style='background-color: #ebf1f5; border-top: 5px solid #f5c145 !important')
+        .p-4.p-md-5
+          #Actividad
+            <Actividad :cuestionario='cuestionario'/>
+
+      .bg-full-width.border-top-9-azul
+        .px-5.pt-5.pb-0
+          h2 Material complementario
+          .row
+            .col-12.col-md-6.col-lg-8
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/44788?page=17") Díaz, M. & Castillo Viera, E. (2016). Expresión corporal en primaria. Universidad de Huelva.
+              
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/63454?page=1") Carbonero Celis, C. (2017). Cómo mejorar las capacidades perceptivo motrices, esquema corporal y lateralidad en tu hijo. Wanceulen Editorial.
+              
+              p.d-flex.my-4
+                img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+                a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=ovJSEYXC_VM") [Vídeo] EUDE Business School. (2021). 20151023 Masterclass María Rodríguez y Mayte Almeida Expresión gestual
+            
+            .col-12.col-md-6.col-lg-3
+              figure
+                img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
+
       p
 
   </template>
@@ -227,6 +254,149 @@
 <script>
 export default {
   name: 'Tema2',
+  data: () => ({
+    cuestionario: {
+      tema: 'Unidad #2',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto: '¿Cuál de las siguientes opciones NO es un patrón locomotor?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Gatear', esCorrecta: false },
+            { id: 'b', texto: 'Saltar', esCorrecta: false },
+            { id: 'c', texto: 'Hablar', esCorrecta: false },
+            { id: 'd', texto: 'Trepar', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            '¿Qué función cumplen los gestos referenciales en la comunicación no verbal?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Expresar emociones mediante movimientos repetitivos',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Señalar o hacer referencia a un objeto, persona o lugar',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Reforzar verbalmente una idea mediante movimientos',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Establecer contacto físico para generar cercanía',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Cuál es la importancia del reconocimiento espacial en el desarrollo infantil?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ayuda a mejorar la memoria a corto plazo',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto:
+                'Permite comprender y desenvolverse eficientemente en el entorno mediante el movimiento',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Favorece el desarrollo del lenguaje escrito',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Genera habilidades matemáticas avanzadas',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto: '¿Cuál de los siguientes gestos es considerado simbólico?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Apretar el puño en señal de frustración',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Asentir con la cabeza para indicar afirmación',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Tocarse el rostro al sentir vergüenza',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Levantar el pulgar para indicar aprobación',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Cuál de las siguientes actividades ayuda al desarrollo de la psicomotricidad en la niñez?',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Jugar a la golosa o rayuela', esCorrecta: true },
+            {
+              id: 'b',
+              texto: 'Memorizar listas de palabras',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Resolver acertijos matemáticos',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Ver videos educativos sin interactuar físicamente',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

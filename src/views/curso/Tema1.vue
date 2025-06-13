@@ -298,10 +298,31 @@
               p.text-bold.mb-4.text-center 04
               p.px-1.text-small.mb-0.text-center <b>Construyen las bases</b> para un estilo de vida activo y saludable.
 
-    .d-flex.bg-azul.bg-full-width.p-4.flex-column.flex-md-row.mb-4(data-aos='fade-up')
+    .d-flex.bg-azul.bg-full-width.p-4.flex-column.flex-md-row.mb-5(data-aos='fade-up')
       img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-31.svg', alt='Texto descriptivo de la imagen')
       .my-auto.p-4.p-xl-0
         p.px-4.mb-0 Fomentar el desarrollo de estos patrones desde la <b>primera infancia</b> es esencial para un crecimiento equilibrado y la formación de futuras habilidades motrices más complejas.
+
+    .bg-full-width.border-top-9-azul
+      .px-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/177890?page=28") Aznar Oro, P. Morte Remacha, J. L. & Serrano Ferruz, R. (2021). La educación física en la educación infantil de 3 a 6 años. Editorial INDE.
+            
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=vTNOLt4B4W0") [Vídeo] Lorepg _. (2021). Habilidades motrices grupo 2.2
+            
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=pvwA8b9HlIE") [Vídeo] Educagratis. (2021). Juegos para trabajar la psicomotricidad
+          
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg' alt='Imagen de material complementario')
 
 
     p
