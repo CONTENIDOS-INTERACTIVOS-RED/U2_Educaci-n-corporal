@@ -141,13 +141,13 @@
         p.mb-4 Las <b>HME</b> surgen sobre la base de las HMB y se caracterizan por un <b>mayor grado de especificación y tecnificación</b>. Son necesarias para responder eficazmente a demandas concretas, como en el deporte, el arte o el trabajo. Ejemplos de HME son:
         .bg-amarillo.p-4.mb-4(data-aos='fade-up')
           div.d-flex
-            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
             p.mb-0 Ejecutar un saque en voleibol.
           div.d-flex
-            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
             p.mb-0 Patear con precisión en fútbol.
           div.d-flex
-            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').m-2
+            img(src='@/assets/componentes/arrow.svg', alt='Texto que describa la imagen' style='width: 16px; height: fit-content;').mx-2.my-1
             p.mb-0 Realizar una figura técnica en danza.
         span Según Batalla (2000, en Rodríguez Naranjo, 2021), las HME comienzan como habilidades generales que, mediante el aprendizaje sistemático, se vuelven <b>más complejas y especializadas</b>. Su dominio implica un desarrollo físico y perceptivo-motriz más avanzado y se recomienda su enseñanza a partir de los <b>9 años</b>.
       .col-4.d-none.d-xl-block
